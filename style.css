@@ -3,23 +3,51 @@ body {
   text-align: center;
 }
 
-.header {
+#header h1 {
+  color: white;
+  font-size: 60px;
+}
+
+#header {
   background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg');
   background-size: 100%;
   background-position: center;
 }
 
-h1 {
-  color: white;
-  font-size: 60px;
-}
-
-.header ul, .header a {
+#header ul, #header a {
   list-style-type: none;
   color: white;
   font-size: 18px;
 }
 
-.header li {
+#header li {
   padding: 4px;
+}
+
+.designed {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg');
+  background-size: 100%;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  color: white;
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer li a {
+  font-size: 20px;
+  color: white;
 }
